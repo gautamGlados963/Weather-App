@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #83f6ee;
 }
 .container {
   width: 100%;
@@ -20,8 +21,7 @@ body {
   align-items: center;
   padding: 30px;
   flex-direction: column;
-}
-
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 .search {
   margin-bottom: 40px;
   display: flex;
@@ -48,17 +48,18 @@ body {
 }
 
 .weather {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   color: azure;
   width: 100%;
+  margin: 10px;
+
 }
 
 .weather img {
   width: 40%;
 }
-
 .weather h1 {
   font-size: 80px;
   margin: 10px;
@@ -68,21 +69,25 @@ body {
   margin: 1px;
   font-weight: 300;
 }
+.weather h3 {
+  font-size: 30px;
+  margin: 1px;
+  font-weight: 300;
+}
 .info {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   color: azure;
-  
 }
 .wind-icon {
   width: 35%;
 }
-.humid-icon{
-    width: 30%;
+.humid-icon {
+  width: 30%;
 }
 .col {
   width: 50%;
@@ -92,12 +97,12 @@ body {
   font-size: 20px;
   padding: 10px;
 }
-.humidity, .wind{
-    font-size: 40px;
-    font-weight: 400;
-    margin: 0 10px;
+.humidity,
+.wind {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 10px;
 }
-p{
-    margin: 0 10px;
+p {
+  margin: 0 10px;
 }
-
