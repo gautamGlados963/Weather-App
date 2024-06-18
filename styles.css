@@ -29,7 +29,6 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 .search input {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
@@ -39,7 +38,6 @@ body {
   border-radius: 20px;
   border: 0;
 }
-
 .search button {
   height: 100%;
   border-radius: 50%;
@@ -47,7 +45,6 @@ body {
   padding: 5px;
   background-color: #cae6b2;
 }
-
 .weather {
   display: none;
   flex-direction: column;
