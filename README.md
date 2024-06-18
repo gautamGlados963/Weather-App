@@ -23,6 +23,13 @@ export async function getWeather(city){
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
     return response.json();}
 ```
+## Demo Screen Shots
+
+![Screenshot 2024-06-17 190245](https://github.com/gautamGlados963/Weather-App/assets/138754223/e54085bc-4cf7-4429-9aa3-e663cdf80565)
+![Screenshot 2024-06-17 190258](https://github.com/gautamGlados963/Weather-App/assets/138754223/f4e2e7ef-82bd-4797-8278-6f7195b03b43)
+![Screenshot 2024-06-17 190318](https://github.com/gautamGlados963/Weather-App/assets/138754223/de2311bf-8cdf-4106-8b88-2d9d7f284837)
+![Screenshot 2024-06-17 190338](https://github.com/gautamGlados963/Weather-App/assets/138754223/143faa04-a4e6-4f69-9a74-9e864daea54b)
+
 ## Contributions
 Feel free to fork the project and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
